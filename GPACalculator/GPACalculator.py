@@ -26,14 +26,14 @@ def convert_to_gpa(percentage):
     else:
         return 0.0
 
-num_classes = int(input("How many classes have you took "))
+num_classes = int(input("How many classes have you took - "))
 gpa_total = 0
 
-ap_classes = int(input("How many AP classes have you took "))
+ap_classes = int(input("How many AP classes have you took - "))
 ap_bonus = ap_classes * 0.5
 
 for i in range(1, num_classes + 1):
-    percent = int(input(f"Enter your percentage for class {i}: "))
+    percent = float(input(f"Enter your percentage for class {i}: "))
     gpa = convert_to_gpa(percent)
     gpa_total += gpa
 
