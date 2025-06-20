@@ -6,7 +6,7 @@ Waukee Community School District has a different way of calculating GPA than oth
 
 - Make sure you have python installed
 - Save the file as GPACalculator.py
-- In terminal/command prompt, run "python GPACalculator.py
+- In terminal/command prompt, run "python GPACalculator.py"
 - You can also copy the code and put it into an online python compiler (https://www.programiz.com/python-programming/online-compiler) or an IDE
 
 ## Warnings
