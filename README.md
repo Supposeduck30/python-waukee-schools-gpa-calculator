@@ -11,7 +11,7 @@ Waukee Community School District has a different way of calculating GPA than oth
 
 ## Warnings
 
-This calculator bases it off of percentage, not the letter grade. If your teacher decided to round/ change the letter grade of the percent, like making 97.8% an A+, make sure to substitute that percent with the actual letter grade's percent.
+This calculator bases it off of percentage, not the letter grade. If your teacher decided to round/change the letter grade of the percent, like making 97.8% an A+, make sure to substitute that percent with the actual letter grade's percent.
 
 ## Resources
  - Reference to see how your gpa is calculated : https://www.waukeeschools.org/academics/assessment/
