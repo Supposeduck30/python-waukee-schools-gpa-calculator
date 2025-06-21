@@ -1,6 +1,6 @@
 # GPA Calculator for WCSD
 
-Waukee Community School District has a different way of calculating GPA than other districts, so here is a calculator to see your GPA since a normal GPA calculator wouldn't work
+Waukee Community School District has a different way of calculating GPA than other districts, so here is a calculator to see your GPA since a normal GPA calculator wouldn't work.
 
 ## How to run 
 
