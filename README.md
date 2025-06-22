@@ -38,7 +38,11 @@ This project was built with no external libraries at all. This GPA calculator wi
 - The number of AP classes * 5 is also added into the total
 - That total then gets divided by the total number of classes
 
+## ![image](https://github.com/user-attachments/assets/4b876f8e-069a-48ac-a344-44da6317453a)
+
+
 ## Known Issues 
 - The result after calculating the GPA is rounded up to 3 decimal places
 - If negative numbers are input, the calculation won't work but it won't submit an error
-- Entering a non number will result in an error 
+- Entering a non number will result in an error
+  
