@@ -1,18 +1,22 @@
 # GPA Calculator for WCSD
 
-Waukee Community School District has a different way of calculating GPA than other districts, so here is a calculator to see your GPA since a normal GPA calculator wouldn't work.
+## A fully functional GPA calculator written in python that calculates weighted cumulative GPA for the Waukee Community Schools Dsitrict
 
-## How to run 
+This project was built with no external libraries at all. This GPA calculator will:
+- Ask you how many classes you have taken 
+- Ask you how many AP classes you have taken
+- Ask you your percentage grade in every class
+- Calculate your cumulative weighted gpa
 
-- Make sure you have python installed
-- Save the file as GPACalculator.py
-- In terminal/command prompt, run "python GPACalculator.py"
-- You can also copy the code and put it into an online python compiler (https://www.programiz.com/python-programming/online-compiler) or an IDE
+## How to run this project
+1. Ensure python is installed on your device (You can verify this by running the command "python --version" in your terminal/command prompt")
+2. Download the script
+- If you have git installed, run "git clone https://github.com/Supposeduck30/GPACalculatorForWCSD.git" in your command prompt/termimal"
+- Or, you can click the green code button and press download zip, then extract it
+3. Inside of the directory, find the file named GPACalculator.py
+4. Open your terminal/command prompt, and execute "python GPACalculator.py"
+5. ALTERNATIVE - If you don't want to run the script locally, you can paste the code into an online python compiler (https://www.programiz.com/python-programming/online-compiler/)
 
-## Warnings
 
-This calculator bases it off of percentage, not the letter grade. If your teacher decided to round/change the letter grade of the percent, like making 97.8% an A+, make sure to substitute that percent with the actual letter grade's percent.
-
-## Resources
- - Reference to see how your gpa is calculated : https://www.waukeeschools.org/academics/assessment/
+   
 
