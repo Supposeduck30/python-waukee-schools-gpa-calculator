@@ -32,3 +32,7 @@ This project was built with no external libraries at all. This GPA calculator wi
    
 5. OPTIONAL - Create a pull request if you want the main repository to change the code with what you changed 
 
+## Known Issues 
+- The result after calculating the GPA is rounded up to 3 decimal places
+- If negative numbers are input, the calculation won't work but it won't submit an error
+- Entering a non number will result in an error 
