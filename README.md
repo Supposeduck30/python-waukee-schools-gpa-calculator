@@ -53,10 +53,11 @@ This project was built with no external libraries at all. This GPA calculator wi
 ## Screenshot
 ## ![image](https://github.com/user-attachments/assets/5c5dbeb1-081a-4180-99cf-4f35bec7eb23)
 
-
-
 ## ⚠️ Known Issues 
 - The result after calculating the GPA is rounded up to 3 decimal places
 - If negative numbers are input, the calculation won't work but it won't submit an error
 - Entering a non number will result in an error
 - If your teacher rounded your letter grade but kept your percentage the same, then just input the percentage of your new letter grade for accurate results
+
+## License
+#### MIT License 
