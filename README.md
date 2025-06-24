@@ -8,6 +8,9 @@ This project was built with no external libraries at all. This GPA calculator wi
 - Ask you your percentage grade in every class
 - Calculate your cumulative weighted gpa as it would be in the WCSD district 
 
+## Version History
+### 1.0.0 
+
 ## 💻 How to run this project
 1. Ensure python is installed on your device (You can verify this by running the command "python --version" in your terminal/command prompt")
 
