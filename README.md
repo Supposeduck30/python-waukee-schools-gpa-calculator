@@ -8,7 +8,7 @@ This project was built with no external libraries at all. This GPA calculator wi
 - Ask you your percentage grade in every class
 - Calculate your cumulative weighted gpa as it would be in the WCSD district 
 
-## Version History
+## 🕓 Version History
 ### 1.0.0 
 
 ## 💻 How to run this project
