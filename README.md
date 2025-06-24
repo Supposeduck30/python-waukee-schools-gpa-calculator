@@ -40,6 +40,7 @@ This project was built with no external libraries at all. This GPA calculator wi
 
 ## ![image](https://github.com/user-attachments/assets/4b876f8e-069a-48ac-a344-44da6317453a)
 
+## Screenshot
 ## ![image](https://github.com/user-attachments/assets/5c5dbeb1-081a-4180-99cf-4f35bec7eb23)
 
 
