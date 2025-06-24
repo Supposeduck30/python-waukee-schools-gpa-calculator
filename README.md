@@ -1,6 +1,6 @@
 # GPA Calculator for WCSD
 
-## A fully functional easy to use GPA calculator written in python that calculates weighted cumulative GPA for the Waukee Community Schools District
+## A fully functional easy to use GPA calculator written in python that calculates weighted cumulative GPA for the Waukee Community School District
 
 This project was built with no external libraries at all. This GPA calculator will:
 - Ask you how many classes you have taken 
@@ -10,6 +10,10 @@ This project was built with no external libraries at all. This GPA calculator wi
 
 ## 🕓 Version History
 ### 1.0.0 
+- Terminal based
+- Input for AP classes and input for classes
+- Input for percentage grade of however many classes were inputted
+
 
 ## 💻 How to run this project
 1. Ensure python is installed on your device (You can verify this by running the command "python --version" in your terminal/command prompt")
