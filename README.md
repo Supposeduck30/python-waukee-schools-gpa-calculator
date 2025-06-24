@@ -60,4 +60,4 @@ This project was built with no external libraries at all. This GPA calculator wi
 - If your teacher rounded your letter grade but kept your percentage the same, then just input the percentage of your new letter grade for accurate results
 
 ## ⚖️ LICENSE
-### MIT License 
+### MIT LICENSE
