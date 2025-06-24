@@ -21,6 +21,9 @@ This project was built with no external libraries at all. This GPA calculator wi
 
 5. ALTERNATIVE - If you don't want to run the script locally, you can paste the code into an online python compiler (https://www.programiz.com/python-programming/online-compiler/)
 
+#### THE CODE IS IN THE .py FILE INSIDE OF THE FOLDER
+
+
 ## How to tweak this project for your own uses 
 1. Fork the repository
    
