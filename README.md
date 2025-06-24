@@ -24,7 +24,7 @@ This project was built with no external libraries at all. This GPA calculator wi
 #### THE CODE IS IN THE .py FILE INSIDE OF THE FOLDER
 
 
-## 🛠️ How to tweak this project for your own uses 
+## 🔧 How to tweak this project for your own uses 
 1. Fork the repository
    
 2. Clone the fork
@@ -35,7 +35,7 @@ This project was built with no external libraries at all. This GPA calculator wi
    
 5. OPTIONAL - Create a pull request if you want the main repository to change the code with what you changed 
 
-## How it works 
+## 🧮 How it works 
 - The code just runs the same function (the function that returns the gpa value from a percentage) the same number times you have classes (which is inputted by the user)
 - It then adds the result of that function to total GPA
 - The number of AP classes * 5 is also added into the total
@@ -48,7 +48,7 @@ This project was built with no external libraries at all. This GPA calculator wi
 
 
 
-## Known Issues 
+## ⚠️ Known Issues 
 - The result after calculating the GPA is rounded up to 3 decimal places
 - If negative numbers are input, the calculation won't work but it won't submit an error
 - Entering a non number will result in an error
