@@ -1,42 +1,29 @@
-def convert_to_gpa(percentage):
-    if 98 <= percentage <= 100:
-        return 4.33
-    elif 93 <= percentage < 98:
-        return 4.0
-    elif 90 <= percentage < 93:
-        return 3.67
-    elif 87 <= percentage < 90:
-        return 3.33
-    elif 83 <= percentage < 87:
-        return 3.0
-    elif 80 <= percentage < 83:
-        return 2.67
-    elif 77 <= percentage < 80:
-        return 2.33
-    elif 73 <= percentage < 77:
-        return 2.0
-    elif 70 <= percentage < 73:
-        return 1.67
-    elif 67 <= percentage < 70:
-        return 1.33
-    elif 63 <= percentage < 67:
-        return 1.0
-    elif 60 <= percentage < 63:
-        return 0.67
-    else:
-        return 0.0
+def letter_to_gpa(letter: str) -> float:
+    """Map a letter grade to its 4.33-scale GPA value."""
+    letter = letter.strip().upper()     # tidy up input
+    mapping = {
+        "A+": 4.33, "A": 4.00, "A-": 3.67,
+        "B+": 3.33, "B": 3.00, "B-": 2.67,
+        "C+": 2.33, "C": 2.00, "C-": 1.67,
+        "D+": 1.33, "D": 1.00, "D-": 0.67,
+        "F": 0.00
+    }
+    if letter not in mapping:
+        raise ValueError(f"Invalid grade '{letter}'")
+    return mapping[letter]
 
-num_classes = int(input("How many classes have you took - "))
-gpa_total = 0
+def main() -> None:
+    num_classes = int(input("How many classes have you taken? "))
+    ap_classes  = int(input("How many of those were AP? "))
 
-ap_classes = int(input("How many AP classes have you took - "))
-ap_bonus = ap_classes * 0.5
+    gpa_total = 0.0
+    for i in range(1, num_classes + 1):
+        grade = input(f"Enter the letter grade for class {i} ")
+        gpa_total += letter_to_gpa(grade)
 
-for i in range(1, num_classes + 1):
-    percent = float(input(f"Enter your percentage for class {i}: "))
-    gpa = convert_to_gpa(percent)
-    gpa_total += gpa
+    ap_bonus = ap_classes * 0.5            # 0.5 bump per AP
+    overall_gpa = (gpa_total + ap_bonus) / num_classes
+    print("Your GPA is:", round(overall_gpa, 3))
 
-total_gpa = (gpa_total + ap_bonus) / num_classes
-print("Your GPA is -", round(total_gpa, 3))
-
+if __name__ == "__main__":
+    main()
