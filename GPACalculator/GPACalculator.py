@@ -18,7 +18,7 @@ def main() -> None:
 
     gpa_total = 0.0
     for i in range(1, num_classes + 1):
-        grade = input(f"Enter the letter grade for class {i} ")
+        grade = input(f"Enter the letter grade for class {i}: ")
         gpa_total += letter_to_gpa(grade)
 
     ap_bonus = ap_classes * 0.5            # 0.5 bump per AP
