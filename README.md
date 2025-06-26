@@ -62,15 +62,15 @@ This project was built with no external libraries at all. This GPA calculator wi
 ```
 How many classes have you taken? 8
 How many of those were AP? 1
-Enter the letter grade for class 1 A
-Enter the letter grade for class 2 A
-Enter the letter grade for class 3 A+
-Enter the letter grade for class 4 A+
-Enter the letter grade for class 5 A+
-Enter the letter grade for class 6 A+
-Enter the letter grade for class 7 A
-Enter the letter grade for class 8 A
-Your GPA is: 4.228
+Enter the letter grade for class 1: A+
+Enter the letter grade for class 2: a+
+Enter the letter grade for class 3: a+
+Enter the letter grade for class 4: a+
+Enter the letter grade for class 5: a+
+Enter the letter grade for class 6: a+
+Enter the letter grade for class 7: a
+Enter the letter grade for class 8: a
+Your GPA is: 4.31
 ```
 ## ⚠️ Known Issues 
 - The result after calculating the GPA is rounded up to 3 decimal places
