@@ -76,7 +76,9 @@ Your GPA is: 4.31
 - The result after calculating the GPA is rounded up to 3 decimal places
 - If negative numbers are input, the calculation won't work but it won't submit an error
 - Entering a non number will result in an error
-- If your teacher rounded your letter grade but kept your percentage the same, then just input the percentage of your new letter grade for accurate results
+- How WCSD works is that if a class is 2 semesters (9th) or 2 terms (10-12th), it calculates it as 2 seperate classes, so input accordingly 
+
+
 
 ## ⚖️ LICENSE
 ### MIT LICENSE
