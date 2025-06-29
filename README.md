@@ -73,7 +73,7 @@ Enter the letter grade for class 8: a
 Your GPA is: 4.31
 # lowercase/uppercase doesnt matter
 ```
-## ⚠️ Known Issues 
+## ⚠️ Warnings/Known Issues 
 - The result after calculating the GPA is rounded up to 3 decimal 
 - How WCSD works is that if a class is 2 semesters (9th) or 2 terms (10-12th), it calculates it as 2 seperate classes, so input accordingly 
 
