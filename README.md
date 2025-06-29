@@ -68,9 +68,10 @@ Enter the letter grade for class 3: a+
 Enter the letter grade for class 4: a+
 Enter the letter grade for class 5: a+
 Enter the letter grade for class 6: a+
-Enter the letter grade for class 7: a
+Enter the letter grade for class 7: A
 Enter the letter grade for class 8: a
 Your GPA is: 4.31
+# lowercase/uppercase doesnt matter
 ```
 ## ⚠️ Known Issues 
 - The result after calculating the GPA is rounded up to 3 decimal 
