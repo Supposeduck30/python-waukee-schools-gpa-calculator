@@ -62,21 +62,22 @@ This project was built with no external libraries at all. This GPA calculator wi
 ```
 How many classes have you taken? 8
 How many of those were AP? 1
-Enter the letter grade for class 1 A
-Enter the letter grade for class 2 A
-Enter the letter grade for class 3 A+
-Enter the letter grade for class 4 A+
-Enter the letter grade for class 5 A+
-Enter the letter grade for class 6 A+
-Enter the letter grade for class 7 A
-Enter the letter grade for class 8 A
-Your GPA is: 4.228
+Enter the letter grade for class 1: A+
+Enter the letter grade for class 2: a+
+Enter the letter grade for class 3: a+
+Enter the letter grade for class 4: a+
+Enter the letter grade for class 5: a+
+Enter the letter grade for class 6: a+
+Enter the letter grade for class 7: A
+Enter the letter grade for class 8: a
+Your GPA is: 4.31
+# lowercase/uppercase doesnt matter
 ```
-## ⚠️ Known Issues 
-- The result after calculating the GPA is rounded up to 3 decimal places
-- If negative numbers are input, the calculation won't work but it won't submit an error
-- Entering a non number will result in an error
-- If your teacher rounded your letter grade but kept your percentage the same, then just input the percentage of your new letter grade for accurate results
+## ⚠️ Warnings/Known Issues 
+- The result after calculating the GPA is rounded up to 3 decimal 
+- How WCSD works is that if a class is 2 semesters (9th) or 2 terms (10-12th), it calculates it as 2 seperate classes, so input accordingly 
+
+
 
 ## ⚖️ LICENSE
 ### MIT LICENSE
