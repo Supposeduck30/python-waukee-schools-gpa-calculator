@@ -1,6 +1,6 @@
 def letter_to_gpa(letter: str) -> float:
     """Map a letter grade to its 4.33-scale GPA value."""
-    letter = letter.strip().upper()     # tidy up input
+    letter = letter.strip().upper()     
     mapping = {
         "A+": 4.33, "A": 4.00, "A-": 3.67,
         "B+": 3.33, "B": 3.00, "B-": 2.67,
@@ -24,6 +24,9 @@ def main() -> None:
     ap_bonus = ap_classes * 0.5            # 0.5 bump per AP
     overall_gpa = (gpa_total + ap_bonus) / num_classes
     print("Your GPA is:", round(overall_gpa, 3))
+    
+    max_gpa= (ap_bonus + 4.33*num_classes)/num_classes
+    print("The highest GPA possible at your point is: ", round(max_gpa, 3))
 
 if __name__ == "__main__":
     main()
