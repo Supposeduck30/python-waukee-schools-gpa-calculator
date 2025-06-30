@@ -16,7 +16,10 @@ This project was built with no external libraries at all. This GPA calculator wi
 
 ### 1.1.0 
 - Input for grade changed to letter grades instead of percentages to account for rounding
-- Changed code format to be shorter and more efficient 
+- Changed code format to be shorter and more efficient
+
+### 1.2.0
+- Added a function that prints the highest GPA possible in the user's position (basically their GPA if they got an A+ in all of their classes)
 
 ## 💻 How to run this project
 1. Ensure python is installed on your device (You can verify this by running the command "python --version" in your terminal/command prompt")
